@@ -1,20 +1,21 @@
-from earth import Human 🌍
+```python
+# 🚀 Initiating profile sequence...
 
-class ItMe(Human):
-    first_name = "Hassan"  # ✨
-    last_name = "Sayed"    # 🚀
-    work_where = "SBS"     # 🏢
-    work_what = "Software Engineer"  # 💻
+class HassanSayed:
+    def __init__(self):
+        self.name = "Hassan Sayed"
+        self.role = "Software Engineer"
+        self.company = "SBS"
+        self.skills = ["💻 Python", "⚛ React", "☁ Cloud Systems"]
+        self.motto = "Turning ☕ into clean, elegant code"
 
-    @classmethod
-    def hi(cls):
-        print(f"Hey 👋, I'm {cls.first_name} {cls.last_name} 😄")
-        print(f"💼 Currently I work as a {cls.work_what} @ {cls.work_where} 🏆")
+    def introduce(self):
+        print(f"👋 Hey there! I'm {self.name}")
+        print(f"💼 {self.role} @ {self.company}")
+        print(f"🛠 Skills: {', '.join(self.skills)}")
+        print(f"✨ Motto: {self.motto}")
 
-ItMe.hi()
+me = HassanSayed()
+me.introduce()
 
-
-### 👨‍💻 About Me
-- 🏢 **Software Engineer** @ SBS
-- 🌱 Passionate about APIs, backend systems, and clean code
-- ⚡ Fun fact: I turn ☕ into code
+# ✅ Profile sequence complete.
